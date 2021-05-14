@@ -83,7 +83,7 @@ section {
     background-position:center;
     position: relative;
   }
-
+/*Hero Form code*/
 .hero-form{
     color: #024e76;
     background-color: #fce138;
@@ -122,6 +122,8 @@ section {
     padding: 10px 20px;
     font-size: 16px;
   }
+
+  /*What-We-Do Section*/
   .intro {
     text-align: center;
   }
@@ -143,3 +145,18 @@ section {
     font-size: 20px;
     margin: 0 auto;
   }
+
+  .steps { 
+    text-align: center;
+    background: #fce138;
+  }
+/*what-you-do section code*/
+  .steps h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid #39a6b2;
+  }
+
+  
