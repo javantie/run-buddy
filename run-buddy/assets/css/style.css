@@ -7,7 +7,7 @@
 body {
     color: #39a6b2;
     font-family: Arial, Helvetica, sans-serif;
-   }
+  }
 
 header {
    padding: 20px 35px;
@@ -127,7 +127,6 @@ section {
 .intro {
     text-align: center;
   }
-
  
 .intro p {
     line-height: 1.7;
