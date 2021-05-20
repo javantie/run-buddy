@@ -192,51 +192,52 @@ section {
   }
 */
 .step-text h4 {
-  font-size: 26px;
-  line-height: 1.5;
-  color: #024e76;
-}
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+  }
 
-.step-info {
-  flex: 2 70%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
+  .step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 
-.step {
-  margin: 50px auto;
-  padding-bottom: 50px;
-  width: 80%;
-  border-bottom: 1px solid #39a6b2;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
+  .step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-.step-img {
-  flex: 1 12%;
-  margin-right: 20px;
-}
+  .step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+  }
 
-.step-img img {
-  max-width: 100%;
-}
+  .step-img img {
+    max-width: 100%;
+  }
 
-.step-text {
-  flex: 12;
-}
+  .step-text {
+    flex: 12;
 
-.trainers {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
+  }
 
-.trainer {
+  .trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .trainer {
     margin: 0 auto 30px auto;
     background: #024e76;
     color: #fce138;
@@ -278,7 +279,7 @@ section {
     
   }
  
-.contact {
+  .contact {
    background-color: #024e76;
   }
 
@@ -286,16 +287,15 @@ section {
    color: #fce138;
  }
  
- /*
- .contact-info iframe {
-   width: 400px;
-   height: 400px;
- }
- */
+ 
  .contact-info {
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
+ }
+
+ .contact-info iframe {
+   height: 400px;
  }
 
  .contact-info div {
@@ -307,15 +307,40 @@ section {
     font-size: 32px;
   }
 
-.contact-info p, .contact-info address {
+  .contact-form input, .contact-form textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+
+ .contact-form button{
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+  }
+
+  .contact-info p, .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
   }
 
-.contact-info a {
+  .contact-info a {
     color: #fce138;
+  }
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
   }
 
   .hero-cta {
